@@ -2,7 +2,8 @@ import React from "react";
 
 import "./App.css";
 
-const Card = ({ source = "", name = "", email = "" }) => {
+const Card = ({ source = "sde", name = "dfsf", email = "dfsa" }) => {
+  // console.log(name);
   return (
     <div className=" col-xl-3 col-lg-3 col-md-6 col-sm-6">
       <div className="card">

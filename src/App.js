@@ -1,8 +1,8 @@
 import React from "react";
 
-import Search from "./Search";
+import Cards from "./Search";
 const App = () => {
-  return <Search />;
+  return (<Cards/>);
 };
 
 export default App;
